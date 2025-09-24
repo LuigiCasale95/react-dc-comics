@@ -24,6 +24,9 @@ li {
   display: flex;
   gap: 10px;
 }
+header li:hover > a {
+  color: #0282F9;
+}
 /* header {
     background-color: rgb(201, 169, 169);
 } */
@@ -66,6 +69,7 @@ main {
 .listMain a {
   color: white;
 }
+
 /* FOOTER */
 footer {
   background-image: url(./img/footer-bg.jpg);
@@ -90,6 +94,9 @@ footer {
   position: absolute;
   top: -60px;
   right: 30px;
+}
+.listFooter li:hover a {
+  color: white;
 }
 /* FIXEDBAR */
 .fixedBar {
