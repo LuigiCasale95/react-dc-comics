@@ -51,7 +51,7 @@ const MyFooter = () => {
             </div>
 
             <div className="imgFooter">
-
+                <img src="./img/dc-logo-bg.png" alt="logo DC " />
             </div>
 
             </div>

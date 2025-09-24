@@ -70,6 +70,7 @@ main {
 footer {
   background-image: url(./img/footer-bg.jpg);
   height: 480px;
+  position: relative;
 }
 .containerFooter {
     max-width: 80%;
@@ -81,6 +82,42 @@ footer {
 .listFooter {
   color: white;
   display: flex;
-  gap: 15px
-  ;
+  gap: 25px;
+  font-size: 18px;
+  padding-top: 45px;
+}
+.imgFooter {
+  position: absolute;
+  top: -60px;
+  right: 30px;
+}
+/* FIXEDBAR */
+.fixedBar {
+  background-color: #303030;
+  height: 100px;
+  position: sticky;
+}
+.black {
+  background-color: black;
+  height: 100vh;
+}
+.fixedBar {
+  padding-top: 25px;
+}
+.boxSocial {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.containerFixedBar {
+  max-width: 80%;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttonFixed {
+  border: 2px solid  #0282F9;
+  padding: 8px;
 }

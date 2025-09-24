@@ -6,6 +6,7 @@ import './App.css'
 import MyMain from './components/main'
 import MyHeader from './components/header'
 import MyFooter from './components/footer'
+import FixedBar from './components/fixedBar'
 
 function App() {
 /*   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
     <MyHeader></MyHeader>
       <MyMain></MyMain>
       <MyFooter></MyFooter>
+      <FixedBar></FixedBar>
     </>
   )
 }
