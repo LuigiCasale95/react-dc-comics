@@ -45,17 +45,42 @@ main {
   height: 150px;
 }
 .listMain {
+  padding-top: 40px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 .listMain > li > a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 8px;
 }
-li > a > img {
-  width: 40px;
+.iconDC {
+  width: 50px;
+}
+.iconDcLocator {
+  width: 34px;
+}
+.listMain a {
+  color: white;
+}
+/* FOOTER */
+footer {
+  background-image: url(./img/footer-bg.jpg);
+  height: 480px;
+}
+.containerFooter {
+    max-width: 80%;
+  margin: 0 auto;
+}
+.listFooter a {
+  color: rgb(116, 110, 110);
+}
+.listFooter {
+  color: white;
+  display: flex;
+  gap: 15px
+  ;
 }
