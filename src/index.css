@@ -1,9 +1,61 @@
+/* Generali */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-header {
-  background-color: rgb(201, 169, 169);
-  height: 200px;
+a {
+    text-decoration: none;
+    color: black;
+}
+li {
+  list-style: none;
+}
+/* HEADER */
+.containerHeader {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.listHeader {
+  display: flex;
+  gap: 10px;
+}
+/* header {
+    background-color: rgb(201, 169, 169);
+} */
+
+/* MAIN */
+main {
+  background-color: black;
+}
+.containerMain {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.content {
+  height: 150px;
+  color: white;
+}
+.blueBar {
+  background-color: #0282F9;
+  height: 150px;
+}
+.listMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.listMain > li > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+li > a > img {
+  width: 40px;
 }
