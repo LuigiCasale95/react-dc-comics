@@ -27,7 +27,6 @@ li {
 header li:hover > a {
   color: #0282F9;
 }
-
 /* MAIN */
 main {
   background-color: black;
@@ -49,6 +48,7 @@ main {
 .row {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 .card {
   width: 180px;

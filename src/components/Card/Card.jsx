@@ -152,20 +152,18 @@ const comics = [
     writers: ["Joëlle Jones"],
   },
 ];
-/* export default Comics
- */
 
 
 const cardComics = () => {
     return (
-        {comics.map((comic) => (
+        comics.map(comic => (
                     <div id={comic.id} className="card">
                             <div className='containerImg'>
                              <img className='ImgComics' src= {comic.thumb} alt={comic.title} />
                             </div>
                             <h3>{comic.series}</h3>
                     </div>            
-        ))}
+        ))
     )
 }
 export default cardComics
