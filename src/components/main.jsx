@@ -7,7 +7,7 @@ const MyMain = () => {
             <img className="jumbotron" src="./img/jumbotron.jpg" alt="JUmbotroon TeenTitans"/>
             <div className="containerMain">
                 <div className="content">
-                    <h2>CURRENT SERIES</h2>
+                    <h2 className='currentSeries'>CURRENT SERIES</h2>
 
                     <div className="row">
                         <Card></Card>
@@ -16,6 +16,7 @@ const MyMain = () => {
 
                 </div>
 
+            <button className='loadMore'>Load More</button>
             </div>
             
             <div className="blueBar">

@@ -88,7 +88,21 @@ main {
 .listMain a {
   color: white;
 }
+.loadMore {
+  color: white;
+  background-color: #0282F9;
+  padding: 8px;
+  margin: 15px;
+  margin-left: 45%;
+}
+.currentSeries {
+  display: inline-block;
+  background-color: #0282F9;
+  padding: 8px;
+  margin-bottom: 10px;
 
+
+}
 /* FOOTER */
 footer {
   background-image: url(./img/footer-bg.jpg);
