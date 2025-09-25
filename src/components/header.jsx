@@ -1,4 +1,15 @@
-
+const NavBar = [
+    {name: "CHARACTERS", href: "#"},
+    {name: "COMICS", href: "#"},
+    {name: "MOVIES", href: "#"},
+    {name: "TV", href: "#"},
+    {name: "GAMES", href: "#"},
+    {name: "COLLECTIBLES", href: "#"},
+    {name: "VIDEOS", href: "#"},
+    {name: "FANS", href: "#"},
+    {name: "NEWS", href: "#"},
+    {name: "SHOP", href: "#"},
+]
 
 const MyHeader = () => {
     return (
@@ -9,16 +20,10 @@ const MyHeader = () => {
             </div>
             <div className="">
                 <ul className="listHeader">
-                    <li><a href="#">CHARACTERS</a></li>
-                    <li><a href="#">COMICS</a></li>
-                    <li><a href="#">MOVIES</a></li>
-                    <li><a href="#">TV</a></li>
-                    <li><a href="#">GAMES</a></li>
-                    <li><a href="#">COLLECTIBLES</a></li>
-                    <li><a href="#">VIDEOS</a></li>
-                    <li><a href="#">FANS</a></li>
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">SHOP</a></li>
+                    {NavBar.map((link, index) => (
+                    <li key={index}><a href={link.href}>{link.name}</a></li>
+
+                    ))}
                 </ul>
             </div>
 
