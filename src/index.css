@@ -27,21 +27,40 @@ li {
 header li:hover > a {
   color: #0282F9;
 }
-/* header {
-    background-color: rgb(201, 169, 169);
-} */
 
 /* MAIN */
 main {
   background-color: black;
+}
+.jumbotron {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
 }
 .containerMain {
   max-width: 80%;
   margin: 0 auto;
 }
 .content {
-  height: 150px;
   color: white;
+} 
+/* CARD e ROW */
+.row {
+  display: flex;
+  gap: 20px;
+}
+.card {
+  width: 180px;
+}
+.containerImg {
+  height: 180px;
+}
+.ImgComics {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
 }
 .blueBar {
   background-color: #0282F9;

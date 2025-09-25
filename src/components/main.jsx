@@ -1,9 +1,24 @@
+import Card from './Card/Card'
+
+
 const MyMain = () => {
     return (
         <main>
+            <img className="jumbotron" src="./img/jumbotron.jpg" alt="JUmbotroon TeenTitans"/>
             <div className="containerMain">
                 <div className="content">
-                    <h1>--Content goes here --</h1>
+                    <h2>CURRENT SERIES</h2>
+
+                    <div className="row">
+                        <div className="card">
+                            <div className='containerImg'>
+                             <img className='ImgComics' src="https://imgs.search.brave.com/gAZQuZyt6WjcUWF6aXCIBaiJqtOJAK-X4nxS9Vbvwno/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZG4y/LnBlbmd1aW4uY29t/LmF1L2NvdmVycy9v/cmlnaW5hbC85Nzgx/NDAxMjc1NDI2Lmpw/Zw" alt="" />
+                            </div>
+                            <h3>Titolo</h3>
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>
